@@ -60,7 +60,8 @@ body {
 }
 
 .menu_li {
-  float: left;
+  	float: left;
+	width: 33.333%;
 }
 
 .menu_li a {
@@ -69,6 +70,8 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 .menu_li a:hover {
