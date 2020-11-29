@@ -54,8 +54,7 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	position: -webkit-sticky;
-	position: sticky;
+	position: absolute;
 	top: 0;
 	background-color: black;
 }
