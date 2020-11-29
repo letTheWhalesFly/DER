@@ -54,7 +54,8 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	position: absolute;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 0;
 	background-color: black;
 }
@@ -71,7 +72,6 @@ body {
 	padding: 14px 2px;
 	text-decoration: none;
 	width: 100%;
-	box-sizing: border-box;
 }
 
 .menu_li a:hover {
